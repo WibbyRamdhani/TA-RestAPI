@@ -1,0 +1,71 @@
+CRITICAL - 2020-09-07 12:45:55 --> Argument 2 passed to view() must be of the type array, string given, called in D:\project-root\app\Controllers\QRMhs.php on line 18
+#0 D:\project-root\app\Controllers\QRMhs.php(18): view('view_mahasiswa', '')
+#1 D:\project-root\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\QRMhs->index()
+#2 D:\project-root\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QRMhs))
+#3 D:\project-root\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\project-root\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\project-root\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\project-root...')
+#6 {main}
+CRITICAL - 2020-09-07 12:48:07 --> Undefined property: App\Controllers\QRMhs::$M_nahasiswa
+#0 D:\project-root\app\Controllers\QRMhs.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\project-root...', 17, Array)
+#1 D:\project-root\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\QRMhs->index()
+#2 D:\project-root\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QRMhs))
+#3 D:\project-root\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\project-root\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\project-root\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\project-root...')
+#6 {main}
+CRITICAL - 2020-09-07 12:48:27 --> Undefined variable: data
+#0 D:\project-root\app\Views\view_mahasiswa.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\project-root...', 22, Array)
+#1 D:\project-root\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\project-root...')
+#2 D:\project-root\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('view_mahasiswa', Array, true)
+#3 D:\project-root\app\Controllers\QRMhs.php(18): view('view_mahasiswa', Array)
+#4 D:\project-root\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\QRMhs->index()
+#5 D:\project-root\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QRMhs))
+#6 D:\project-root\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\project-root\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\project-root\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\project-root...')
+#9 {main}
+CRITICAL - 2020-09-07 12:50:54 --> Undefined variable: datamhs
+#0 D:\project-root\app\Views\view_mahasiswa.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\project-root...', 22, Array)
+#1 D:\project-root\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\project-root...')
+#2 D:\project-root\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('view_mahasiswa', Array, true)
+#3 D:\project-root\app\Controllers\QRMhs.php(18): view('view_mahasiswa', Array)
+#4 D:\project-root\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\QRMhs->index()
+#5 D:\project-root\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QRMhs))
+#6 D:\project-root\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\project-root\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\project-root\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\project-root...')
+#9 {main}
+CRITICAL - 2020-09-07 12:51:35 --> Trying to get property 'nrp' of non-object
+#0 D:\project-root\app\Views\view_mahasiswa.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\project-root...', 24, Array)
+#1 D:\project-root\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\project-root...')
+#2 D:\project-root\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('view_mahasiswa', Array, true)
+#3 D:\project-root\app\Controllers\QRMhs.php(18): view('view_mahasiswa', Array)
+#4 D:\project-root\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\QRMhs->index()
+#5 D:\project-root\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QRMhs))
+#6 D:\project-root\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\project-root\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\project-root\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\project-root...')
+#9 {main}
+CRITICAL - 2020-09-07 12:52:52 --> Undefined index: type_kuliah
+#0 D:\project-root\app\Views\view_mahasiswa.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\project-root...', 26, Array)
+#1 D:\project-root\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\project-root...')
+#2 D:\project-root\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('view_mahasiswa', Array, true)
+#3 D:\project-root\app\Controllers\QRMhs.php(18): view('view_mahasiswa', Array)
+#4 D:\project-root\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\QRMhs->index()
+#5 D:\project-root\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QRMhs))
+#6 D:\project-root\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\project-root\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\project-root\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\project-root...')
+#9 {main}
+CRITICAL - 2020-09-07 12:53:07 --> Trying to get property 'qr_code' of non-object
+#0 D:\project-root\app\Views\view_mahasiswa.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\project-root...', 27, Array)
+#1 D:\project-root\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\project-root...')
+#2 D:\project-root\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('view_mahasiswa', Array, true)
+#3 D:\project-root\app\Controllers\QRMhs.php(18): view('view_mahasiswa', Array)
+#4 D:\project-root\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\QRMhs->index()
+#5 D:\project-root\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QRMhs))
+#6 D:\project-root\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\project-root\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\project-root\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\project-root...')
+#9 {main}
